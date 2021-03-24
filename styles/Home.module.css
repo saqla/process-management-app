@@ -1,10 +1,32 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  width: 100vw;
+  height: 36px;
+  background-color: #434343;
+}
+
+.logo {
+  width: 112px;
+  height: 36px;
+  background-color: #F2F3F3;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: .3em;
 }
 
 .main {
@@ -108,10 +130,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
 }
 
 @media (max-width: 600px) {
