@@ -8,6 +8,16 @@
 /* pma-orange   #FC973B */
 /* card-outline #D3D3D3 */
 
+/* global assets */
+.contents-title {
+  @apply w-72 h-12 flex justify-center items-center font-semibold text-lg tracking-wider;
+}
+
+.btn {
+  @apply w-10 h-10 rounded-full absolute right-0;
+  background-color: #8FF261;
+}
+
 /* Header component */
 .header {
   @apply h-8;
@@ -23,9 +33,5 @@
 }
 
 /* HouseMakers component */
-.contents-title {
-  @apply w-72 h-12 flex justify-center items-center font-semibold text-lg tracking-wider;
-}
-
 
 @tailwind utilities;
