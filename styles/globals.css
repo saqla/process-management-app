@@ -18,7 +18,7 @@
   background-color: #f2f3f3;
 }
 .logo-title {
-  @apply w-28 h-8 flex justify-center items-center font-bold;
+  @apply w-28 h-8 flex justify-center items-center font-bold text-lg;
   letter-spacing: .3em;
 }
 
