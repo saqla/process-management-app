@@ -1,8 +1,6 @@
-import styles from "../styles/Home.module.css";
-
 export default function HouseMaker() {
   return (
-    <h2>ハウスメーカー</h2>
+    <h2 className="text-green-400">ハウスメーカー</h2>
 
     // <header className={styles.header}>
     //   <div className={styles.logo}>
