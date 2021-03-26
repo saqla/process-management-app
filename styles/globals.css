@@ -10,11 +10,14 @@
 
 /* global assets */
 .contents-title {
-  @apply w-72 h-12 flex justify-center items-center font-semibold text-lg tracking-wider;
+  @apply w-72 h-16 flex justify-center items-center font-semibold text-2xl tracking-wider;
 }
 
 .btn {
-  @apply w-10 h-10 rounded-full absolute top-0 right-0;
+  @apply w-10 h-16 absolute top-2 right-0;
+}
+.btn-icon {
+  @apply w-10 h-10 rounded-full;
   background-color: #8FF261;
 }
 
