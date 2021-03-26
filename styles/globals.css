@@ -8,18 +8,24 @@
 /* pma-orange   #FC973B */
 /* card-outline #D3D3D3 */
 
-/* logo wrapper */
+/* Header component */
 .header {
   @apply h-8;
   background-color: #434343;
 }
 .logo {
-  @apply w-28 h-8 ml-2;
+  @apply w-28 h-8 ml-3;
   background-color: #f2f3f3;
 }
 .logo-title {
   @apply w-28 h-8 flex justify-center items-center font-bold text-lg;
   letter-spacing: .3em;
 }
+
+/* HouseMakers component */
+.contents-title {
+  @apply w-72 h-12 flex justify-center items-center font-semibold text-lg tracking-wider;
+}
+
 
 @tailwind utilities;

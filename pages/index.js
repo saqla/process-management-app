@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-import HouseMaker from '../components/HouseMaker'
+import HouseMaker from '../components/HouseMakers'
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>かんりくん</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,7 +12,7 @@ export default function Home() {
 
       <Header />
 
-      <main>
+      <main className="flex justify-center">
         <HouseMaker />
       </main>
 
