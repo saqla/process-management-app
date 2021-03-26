@@ -14,7 +14,7 @@
 }
 
 .btn {
-  @apply w-10 h-10 rounded-full absolute right-0;
+  @apply w-10 h-10 rounded-full absolute top-0 right-0;
   background-color: #8FF261;
 }
 
