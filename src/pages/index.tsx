@@ -27,7 +27,7 @@ const Home: FC = (props: any) => {
 
   return (
     <div>
-      <div className="hidden">
+      <div className="hidden-area">
         <pre>{currentUser && JSON.stringify(currentUser, null, 4)}</pre>
         <button onClick={logOut}>Logout</button>
       </div>
