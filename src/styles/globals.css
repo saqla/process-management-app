@@ -9,6 +9,10 @@
 /* card-outline #D3D3D3 */
 
 /* global assets */
+body {
+  @apply m-0;
+}
+
 .contents-title {
   @apply w-72 h-16 flex justify-center items-center font-semibold text-2xl tracking-wider;
 }
