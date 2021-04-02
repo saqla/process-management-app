@@ -1,6 +1,7 @@
+import { CreateHouseMaker } from './CreateHouseMaker'
 import Image from 'next/image'
 
-export default function HouseMakers() {
+const HouseMakers = () => {
   return (
     <div className="w-80 h-16 my-2.5 flex justify-center items-center relative">
       <h2 className="contents-title">ハウスメーカー</h2>
@@ -18,3 +19,5 @@ export default function HouseMakers() {
     </div>
   );
 }
+
+export default HouseMakers
