@@ -1,8 +1,8 @@
-import { useEffect, FC, useState } from 'react'
+import React, { useEffect, FC, useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Header from '../components/Header'
-import HouseMakers from '../components/HouseMakers'
+import HouseMakers from './HouseMakers'
 
 import { auth } from '../utils/firebase'
 
