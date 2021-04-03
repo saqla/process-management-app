@@ -2,7 +2,7 @@ import React, { useEffect, FC, useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Header from '../components/Header'
-import HouseMakers from './HouseMakers'
+import HouseMakers from './houseMakers/HouseMakers'
 
 import { auth } from '../utils/firebase'
 
